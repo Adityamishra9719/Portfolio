@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        My Ist web page
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-image: url("https://cdn.wallpapersafari.com/31/50/dNQTbX.jpg");
+            width: 90%;
+        }
+
+        nav {
+            border: solid 2px;
+            background-color: rgb(23, 21, 21);
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            width: 108%;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            padding-left: 50px;
+        }
+
+        .intro {
+            font-style: oblique;
+            font-size: 12px;
+            font-weight: bold;
+            color: white;
+            position: relative;
+            left: 100px;
+            top: 18em;
+
+        }
+
+        .red {
+            color: red;
+        }
+
+        .no {
+            color: rgb(123, 167, 202);
+            font-weight: bold;
+            font-size: 20px;
+            text-decoration: underline;
+        }
+
+        img {
+            float: right;
+            height: 450px;
+            width: 450px;
+            border-radius: 10px;
+            padding: 3px;
+            position: relative;
+            top: -7em;
+        }
+
+        .social-icons {
+            display: flex;
+        }
+
+        #link {
+            display: flex;
+            padding-right: 15px;
+        }
+
+        #insta {
+            margin-left: 15px;
+        }
+
+        #phone-number {
+            color: rgb(242, 246, 249);
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        footer {
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 0px;
+            color: white;
+            background-color: rgb(23, 21, 21);
+            position: fixed;
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            opacity: 0.5;
+        }
+    </style>
+
+<body>
+    <nav>
+        <a href="resume.pdf">Resume</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+    </nav>
+    <div class="intro">
+        <h4>Hello,my name is </h4>
+        <h1>Aditya kumar mishra</h1>
+        <h2>And i'am a <span class="red">Web developer</span></h2>
+        <div id="link">
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/aditya-kumar-mishra-6a025b216" target="_blank">
+                    <i class="fa fa-linkedin-square" style="font-size:48px;color:rgba(57, 29, 197, 0.782)"></i>
+                </a>
+            </div>
+            <div id="insta">
+                <a href="https://www.instagram.com/adityamishra842/" target="_blank">
+                    <i class="fa fa-instagram" style="font-size:48px;color:rgba(235, 29, 29, 0.855)"></i>
+                </a>
+            </div>
+        </div>
+        <div id="phone-number">
+            <p> Phone-Number -><span class="no">+91-9719167690</span></p>
+        </div>
+    </div>
+    <img src="3d.png">
+    <footer>
+        <p>Made by Aditya </p>
+    </footer>
+</body>
+
+</html>
